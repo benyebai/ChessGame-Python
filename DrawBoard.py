@@ -1,38 +1,41 @@
 import pygame
-blackBishop = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/blackBishop.png')
+
+directory = 'C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/'
+
+blackBishop = pygame.image.load(directory + 'blackBishop.png')
 blackBishop = pygame.transform.scale(blackBishop, (100, 100))
 
-blackKing = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/blackKing.png')
+blackKing = pygame.image.load(directory + 'blackKing.png')
 blackKing = pygame.transform.scale(blackKing, (100, 100))
 
-blackHorse = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/blackKnight.png')
+blackHorse = pygame.image.load(directory + 'blackKnight.png')
 blackHorse = pygame.transform.scale(blackHorse, (100, 100))
 
-blackPawn = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/blackPawn.png')
+blackPawn = pygame.image.load(directory + 'blackPawn.png')
 blackPawn = pygame.transform.scale(blackPawn, (100, 100))
 
-blackQueen = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/blackQueen.png')
+blackQueen = pygame.image.load(directory + 'blackQueen.png')
 blackQueen = pygame.transform.scale(blackQueen, (100, 100))
 
-blackRook = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/blackRook.png')
+blackRook = pygame.image.load(directory + 'blackRook.png')
 blackRook = pygame.transform.scale(blackRook, (100, 100))
 
-whiteBishop = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/whiteBishop.png')
+whiteBishop = pygame.image.load(directory + 'whiteBishop.png')
 whiteBishop = pygame.transform.scale(whiteBishop, (100, 100))
 
-whiteKing = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/whiteKing.png')
+whiteKing = pygame.image.load(directory + 'whiteKing.png')
 whiteKing = pygame.transform.scale(whiteKing, (100, 100))
 
-whiteHorse = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/whiteKnight.png')
+whiteHorse = pygame.image.load(directory + 'whiteKnight.png')
 whiteHorse = pygame.transform.scale(whiteHorse, (100, 100))
 
-whitePawn = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/whitePawn.png')
+whitePawn = pygame.image.load(directory + 'whitePawn.png')
 whitePawn = pygame.transform.scale(whitePawn, (100, 100))
 
-whiteQueen = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/whiteQueen.png')
+whiteQueen = pygame.image.load(directory + 'whiteQueen.png')
 whiteQueen = pygame.transform.scale(whiteQueen, (100, 100))
 
-whiteRook = pygame.image.load('C:/Users/encha_9ba2ozo/PycharmProjects/ChessGame/sexc chess sprites/whiteRook.png')
+whiteRook = pygame.image.load(directory + 'whiteRook.png')
 whiteRook = pygame.transform.scale(whiteRook, (100, 100))
 
 White = (255, 255, 255)
